@@ -1,0 +1,50 @@
+.All {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddGoal-Bar {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 3px solid #f95959;
+    margin-top: 3%;
+    background-color: #e3e3e3;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgb(83, 83, 83);
+}
+
+.AddGoal-form {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.AddGoal-form h3 {
+    font-weight:900;
+}
+
+.AddGoal-input {
+    width: 80%;
+    font-size: 1.3rem;
+}
+
+.AddGoal-button {
+    width: 20%;
+    font-size: 1.3rem;
+    margin-top: 3%;
+    background-color: #455d7a;
+    color: white;
+}
+
+.Error {
+    color:#f95959;
+    font-size: 2rem;
+    margin: 3% 0 2% 0;
+}
+
+.DisplayNone {
+    display: none;
+}
